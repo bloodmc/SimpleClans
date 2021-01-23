@@ -199,32 +199,4 @@
             <url>https://repo.aikar.co/content/groups/aikar/</url>
         </repository>
     </repositories>
-
-    <!-- GitHub/Jenkins -->
-
-    <ciManagement>
-        <system>jenkins</system>
-        <url>http://104.236.246.108:8080</url>
-    </ciManagement>
-
-    <scm>
-        <connection>scm:git:git:@github.com:marcelo-mason/SimpleClans.git</connection>
-        <developerConnection>scm:git:git:@github.com:marcelo-mason/SimpleClans.git</developerConnection>
-        <url>http://github.com/marcelo-mason/SimpleClans.git/tree/master/</url>
-        <tag>SimpleClans</tag>
-    </scm>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-    <!-- Upstream Distribution -->
-
-    <distributionManagement>
-        <repository>
-            <id>bintray-roinujnosde-bukkit-plugins</id>
-            <name>roinujnosde-bukkit-plugins</name>
-            <url>https://api.bintray.com/maven/roinujnosde/bukkit-plugins/SimpleClans/;publish=1</url>
-        </repository>
-    </distributionManagement>
 </project>
